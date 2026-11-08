@@ -1,0 +1,6 @@
+.build/
+.DS_Store
+*.xcuserstate
+*.xcworkspace
+DerivedData/
+MacSpaceSniffer.app/

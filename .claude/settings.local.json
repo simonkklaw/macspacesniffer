@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rtk ls *)",
+      "Bash(rtk git *)",
+      "Bash(sw_vers)",
+      "Bash(xcodebuild -version)",
+      "Bash(swift --version)",
+      "Bash(npm --version)",
+      "Bash(xcode-select -p)",
+      "Bash(grep -E \"^\\(swift|swiftc|swift-package\\)$\")",
+      "Bash(swift package *)",
+      "Bash(rtk swift *)",
+      "Read(//Library/Developer/CommandLineTools/SDKs/**)",
+      "Read(//Library/Developer/CommandLineTools/usr/lib/**)",
+      "Bash(sw_vers -productVersion)",
+      "Bash(npm list *)",
+      "Bash(brew list *)",
+      "Bash(rtk find *)",
+      "Bash(xcrun --find swift)",
+      "Bash(swift -sdk /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -target arm64-apple-macosx15.0 -e \"import SwiftUI; print\\(\\\\\"OK\\\\\"\\)\")",
+      "Bash(npm show *)",
+      "Bash(sw_vers -productName)",
+      "Bash(sw_vers -buildVersion)",
+      "Bash(swift -e ' *)",
+      "Bash(swift *)",
+      "Bash(time find /Library -type f2)",
+      "Bash(python3 -c \"import cairosvg\")",
+      "Bash(rtk make *)",
+      "Bash(chmod +x /Users/vlkr.01/src/macspacesniffer/make_dmg.sh)",
+      "Bash(bash *)",
+      "Bash(hdiutil imageinfo *)"
+    ]
+  }
+}
